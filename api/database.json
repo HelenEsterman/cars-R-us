@@ -1,93 +1,91 @@
 {
-    "paint":[
+  "paint": [
     {
-        "id": 1,
-        "color": "Silver",
-        "price": 40.99
+      "id": 1,
+      "color": "Silver",
+      "price": 40.99
     },
     {
-        "id": 2,
-        "color": "Midnight Blue",
-        "price": 30.99
+      "id": 2,
+      "color": "Midnight Blue",
+      "price": 30.99
     },
     {
-        "id": 3,
-        "color": "Firebrick Red",
-        "price": 35.99
+      "id": 3,
+      "color": "Firebrick Red",
+      "price": 35.99
     },
     {
-        "id": 4,
-        "color": "Spring Green",
-        "price": 45.99
+      "id": 4,
+      "color": "Spring Green",
+      "price": 45.99
     }
-],
-    "wheels":[
+  ],
+  "wheels": [
     {
-        "id": 1,
-        "wheel": "17-inch Pair Radial",
-        "price": 28.50
+      "id": 1,
+      "wheel": "17-inch Pair Radial",
+      "price": 28.5
     },
     {
-        "id": 2,
-        "wheel": "17-inch Pair Radial Black",
-        "price": 30.75
+      "id": 2,
+      "wheel": "17-inch Pair Radial Black",
+      "price": 30.75
     },
     {
-        "id": 3,
-        "wheel": "18-inch Pair Spoke Silver",
-        "price": 40
+      "id": 3,
+      "wheel": "18-inch Pair Spoke Silver",
+      "price": 40
     },
     {
-        "id": 4,
-        "wheel": "18-inch Pair Spoke Black",
-        "price": 43.50
+      "id": 4,
+      "wheel": "18-inch Pair Spoke Black",
+      "price": 43.5
     }
-],
-    "technology":[
+  ],
+  "technology": [
     {
-        "id": 1,
-        "package": "Basic",
-        "price": 20.25
+      "id": 1,
+      "package": "Basic",
+      "price": 20.25
     },
     {
-        "id": 2,
-        "package": "Navigation",
-        "price": 36.25
+      "id": 2,
+      "package": "Navigation",
+      "price": 36.25
     },
     {
-        "id": 3,
-        "package": "Visibility",
-        "price": 45
+      "id": 3,
+      "package": "Visibility",
+      "price": 45
     },
     {
-        "id": 4,
-        "package": "Ultra",
-        "price": 50.75
+      "id": 4,
+      "package": "Ultra",
+      "price": 50.75
     }
-],
-    "interior":[
+  ],
+  "interior": [
     {
-        "id": 1,
-        "material": "Beige Fabric",
-        "price": 25.75
+      "id": 1,
+      "material": "Beige Fabric",
+      "price": 25.75
     },
     {
-        "id": 2,
-        "material": "Charcoal Fabric",
-        "price": 34.50
+      "id": 2,
+      "material": "Charcoal Fabric",
+      "price": 34.5
     },
     {
-        "id": 3,
-        "material": "White Leather",
-        "price": 39.99
+      "id": 3,
+      "material": "White Leather",
+      "price": 39.99
     },
     {
-        "id": 4,
-        "material": "Black Leather",
-        "price": 45.20
+      "id": 4,
+      "material": "Black Leather",
+      "price": 45.2
     }
-],
-    "orders":[
-
-]
+  ],
+  "orders": []
 }
