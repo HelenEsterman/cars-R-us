@@ -63,6 +63,7 @@ button {
   margin: 15px;
   padding: 15px;
   background-color: rgb(202, 148, 148);
+  border-radius: 15px;
 }
 
 .customOrders {
