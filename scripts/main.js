@@ -15,30 +15,31 @@ const render = async () => {
   const buttonHtml = OrderButton();
   const orderListHtml = await OrderList();
   const mainHtml = `
-    <h1>Cars 'R Us: Personal Car Builder</h1>
-        <div>
+    <div class="selections">
+        <div id="eachSelection">
             <h3>Paints</h3>
                 ${paintHtml}
         </div>
-        <div>
+        <div id="eachSelection">
             <h3>Technologies</h3>
                 ${techHtml}
         </div>
-        <div>
+        <div id="eachSelection">
             <h3>Wheels</h3>
                 ${wheelHtml}
         </div>
-        <div>
+        <div id="eachSelection">
             <h3>Interior</h3>
                 ${interiorHtml}
         </div>
-        <div>
-            <p>${buttonHtml}</p>
-        </div>
-        <div>
-            <h3>Custom Car Orders</h3>
+    </div>
+            <article class="order">
+                ${buttonHtml}
+            </article>
+        <article class="customOrders">
+            <h2>Custom Car Orders</h2>
             ${orderListHtml}
-        </div>
+        </article>
     `;
   mainContainer.innerHTML = mainHtml;
 };

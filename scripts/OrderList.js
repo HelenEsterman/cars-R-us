@@ -9,7 +9,11 @@ export const OrderList = async () => {
       order.wheel.price +
       order.interior.price +
       order.technologies.price;
-    return `<div>${order.paint.color} car with ${order.wheel.wheel} wheels, ${order.interior.material} interior, and the ${order.technologies.package} package for a total cost of $${orderPrice}</div>`;
+    const officialOrderPrice = orderPrice.toLocaleString("en-US", {
+      style: "currency",
+      currency: "USD",
+    });
+    return `<div class="eachOrder">${order.paint.color} car with ${order.wheel.wheel} wheels, ${order.interior.material} interior, and the ${order.technologies.package} package for a total cost of ${officialOrderPrice}</div>`;
   });
   const finalOrderList = ordersListArray.join(" ");
   return finalOrderList;
