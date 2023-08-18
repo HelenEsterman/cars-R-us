@@ -115,6 +115,20 @@
       "wheelId": 3,
       "interiorId": 2,
       "id": 4
+    },
+    {
+      "paintId": 3,
+      "technologiesId": 2,
+      "wheelId": 3,
+      "interiorId": 2,
+      "id": 5
+    },
+    {
+      "paintId": 4,
+      "technologiesId": 3,
+      "wheelId": 4,
+      "interiorId": 2,
+      "id": 6
     }
   ]
 }
