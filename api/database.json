@@ -1,5 +1,5 @@
 {
-  "paint": [
+  "paints": [
     {
       "id": 1,
       "color": "Silver",
@@ -43,7 +43,7 @@
       "price": 43.5
     }
   ],
-  "technology": [
+  "technologies": [
     {
       "id": 1,
       "package": "Basic",
@@ -65,7 +65,7 @@
       "price": 50.75
     }
   ],
-  "interior": [
+  "interiors": [
     {
       "id": 1,
       "material": "Beige Fabric",
@@ -87,5 +87,34 @@
       "price": 45.2
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "paintId": 3,
+      "technologiesId": 2,
+      "wheelId": 3,
+      "interiorId": 2,
+      "id": 1
+    },
+    {
+      "paintId": 2,
+      "technologiesId": 4,
+      "wheelId": 3,
+      "interiorId": 3,
+      "id": 2
+    },
+    {
+      "paintId": 4,
+      "technologiesId": 1,
+      "wheelId": 4,
+      "interiorId": 4,
+      "id": 3
+    },
+    {
+      "paintId": 2,
+      "technologiesId": 2,
+      "wheelId": 3,
+      "interiorId": 2,
+      "id": 4
+    }
+  ]
 }
