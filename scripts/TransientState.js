@@ -33,12 +33,12 @@ export const saveToPermanentState = async () => {
       body: JSON.stringify(transientState),
     };
     const response = await fetch("http://localhost:8088/orders", postOptions);
+
+    const customEvent = new CustomEvent("orderPostedToApi");
+    document.dispatchEvent(customEvent);
     transientState.paintId = 0;
     transientState.technologiesId = 0;
     transientState.interiorId = 0;
     transientState.wheelId = 0;
-
-    const customEvent = new CustomEvent("orderPostedToApi");
-    document.dispatchEvent(customEvent);
   }
 };
