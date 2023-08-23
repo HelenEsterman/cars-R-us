@@ -3,6 +3,7 @@ const transientState = {
   technologiesId: 0,
   wheelId: 0,
   interiorId: 0,
+  carId: 0,
 };
 
 export const setPaintId = (paintChosen) => {
@@ -17,13 +18,18 @@ export const setWheelId = (wheelChosen) => {
 export const setInteriorId = (interiorChosen) => {
   transientState.interiorId = interiorChosen;
 };
+export const setCarId = (modelChosen) => {
+  transientState.carId = modelChosen;
+  console.log(transientState);
+};
 
 export const saveToPermanentState = async () => {
   if (
     transientState.paintId > 0 &&
     transientState.technologiesId > 0 &&
     transientState.wheelId > 0 &&
-    transientState.interiorId > 0
+    transientState.interiorId > 0 &&
+    transientState.carId > 0
   ) {
     const postOptions = {
       method: "POST",
@@ -40,5 +46,6 @@ export const saveToPermanentState = async () => {
     transientState.technologiesId = 0;
     transientState.interiorId = 0;
     transientState.wheelId = 0;
+    transientState.carId = 0;
   }
 };
