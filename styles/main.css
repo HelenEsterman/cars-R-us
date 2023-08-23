@@ -58,6 +58,11 @@ button {
   font-family: "Sofia", sans-serif;
 }
 
+#car {
+  background-color: lightcoral;
+  font-family: "Sofia", sans-serif;
+}
+
 .eachOrder {
   border: dashed rgb(8, 196, 146);
   margin: 15px;

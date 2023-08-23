@@ -1,3 +1,4 @@
+import { CarOptions } from "./CarOptions.js";
 import { InteriorOptions } from "./InteriorSelection.js";
 import { OrderButton } from "./OrderButton.js";
 import { OrderList } from "./OrderList.js";
@@ -12,6 +13,7 @@ const render = async () => {
   const techHtml = await TechnologyOptions();
   const wheelHtml = await WheelOptions();
   const interiorHtml = await InteriorOptions();
+  const carHtml = await CarOptions();
   const buttonHtml = OrderButton();
   const orderListHtml = await OrderList();
   const mainHtml = `
@@ -31,6 +33,10 @@ const render = async () => {
         <div id="eachSelection">
             <h3>Interior</h3>
                 ${interiorHtml}
+        </div>
+        <div id="eachSelection">
+            <h3>Model</h3>
+                ${carHtml}
         </div>
     </div>
             <article class="order">
